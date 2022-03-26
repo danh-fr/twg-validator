@@ -6,7 +6,7 @@ import ValidateHandle from "../functions/ValidateHandle";
 import ValidateOptions from "../functions/ValidateOptions";
 import ValidateCollections from "../functions/ValidateCollections";
 
-var faultyProducts = {};
+const invalidProducts = {};
 
 const PRODUCTS = gql`
   query products {
@@ -44,17 +44,17 @@ const ProductList = () => {
   data.products.edges.map((product) => {
     let title = product.node.title;
 
-    ValidateTitle(faultyProducts, title);
-    ValidateHandle(faultyProducts, product, title);
-    ValidateOptions(faultyProducts, product, title);
-    ValidateCollections(faultyProducts, product, title);
+    ValidateTitle(invalidProducts, title);
+    ValidateHandle(invalidProducts, product, title);
+    ValidateOptions(invalidProducts, product, title);
+    ValidateCollections(invalidProducts, product, title);
   });
 
   console.log(data);
 
   return (
     <div>
-      <pre>{JSON.stringify(faultyProducts, null, 2)}</pre>
+      <pre>{JSON.stringify(invalidProducts, null, 2)}</pre>
     </div>
   );
 };

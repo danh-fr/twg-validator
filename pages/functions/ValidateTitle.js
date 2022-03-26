@@ -1,17 +1,17 @@
-import MakeProductObject from "./MakeProductObject";
+import ProductObject from "./ProductObject";
 
-const ValidateTitle = (faultyProducts, title) => {
+const ValidateTitle = (invalidProducts, title) => {
   const invalidTitle = {};
 
   if (!title.includes(" - ")) {
-    MakeProductObject(faultyProducts, title);
+    ProductObject(invalidProducts, title);
 
     invalidTitle = {
       expected: "Product Name - Colour Name",
       received: title,
     };
 
-    faultyProducts[title]["invalid title"] = invalidTitle;
+    invalidProducts[title]["invalid title"] = invalidTitle;
   }
 };
 

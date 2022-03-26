@@ -1,6 +1,6 @@
-import MakeProductObject from "./MakeProductObject";
+import ProductObject from "./ProductObject";
 
-const ValidateOptions = (faultyProducts, product, title) => {
+const ValidateOptions = (invalidProducts, product, title) => {
   let productOptions = product.node.options;
   let sizeExists = false;
   let colourExists = false;
@@ -19,25 +19,25 @@ const ValidateOptions = (faultyProducts, product, title) => {
   }
 
   if (sizeExists === false && oneSize === false) {
-    MakeProductObject(faultyProducts, title, "invalid options", "size");
+    ProductObject(invalidProducts, title, "invalid options", "size");
 
     const invalidSize = {
       expected: "Size",
       received: "(size option not present or misspelt)",
     };
 
-    faultyProducts[title]["invalid options"]["size"] = invalidSize;
+    invalidProducts[title]["invalid options"]["size"] = invalidSize;
   }
 
   if (colourExists === false) {
-    MakeProductObject(faultyProducts, title, "invalid options", "colour");
+    ProductObject(invalidProducts, title, "invalid options", "colour");
 
     const invalidColour = {
       expected: "Colour",
       received: "(colour option not present or misspelt)",
     };
 
-    faultyProducts[title]["invalid options"]["colour"] = invalidColour;
+    invalidProducts[title]["invalid options"]["colour"] = invalidColour;
   }
 };
 

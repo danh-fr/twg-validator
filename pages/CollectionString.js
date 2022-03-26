@@ -1,14 +1,14 @@
 import * as React from "react";
 import { concat, gql, useQuery } from "@apollo/client";
 
-const faultyProducts = {};
+const invalidProducts = {};
 let stringProduct = "";
 let stringColour = "";
 
 const validateTitle = (title) => {
   if (!title.includes(" - ")) {
-    !faultyProducts[title] ? (faultyProducts[title] = []) : "";
-    faultyProducts[title].push("Title error");
+    !invalidProducts[title] ? (invalidProducts[title] = []) : "";
+    invalidProducts[title].push("Title error");
   }
 };
 
@@ -20,8 +20,8 @@ const validateHandle = (product, title) => {
     .toLowerCase();
 
   if (productHandleized !== productHandle) {
-    !faultyProducts[title] ? (faultyProducts[title] = []) : "";
-    faultyProducts[title].push("Handle mismatch");
+    !invalidProducts[title] ? (invalidProducts[title] = []) : "";
+    invalidProducts[title].push("Handle mismatch");
   }
 };
 
@@ -36,13 +36,13 @@ const ValidateOptions = (product, title) => {
   }
 
   if (sizeExists === false) {
-    !faultyProducts[title] ? (faultyProducts[title] = []) : "";
-    faultyProducts[title].push("Option error: Size");
+    !invalidProducts[title] ? (invalidProducts[title] = []) : "";
+    invalidProducts[title].push("Option error: Size");
   }
 
   if (colourExists === false) {
-    !faultyProducts[title] ? (faultyProducts[title] = []) : "";
-    faultyProducts[title].push("Option error: Colour");
+    !invalidProducts[title] ? (invalidProducts[title] = []) : "";
+    invalidProducts[title].push("Option error: Colour");
   }
 };
 
@@ -63,13 +63,13 @@ const validateCollections = (product, title, name, colour) => {
   }
 
   if (productCollectionExists === false) {
-    !faultyProducts[title] ? (faultyProducts[title] = []) : "";
-    faultyProducts[title].push("Collection error: Product");
+    !invalidProducts[title] ? (invalidProducts[title] = []) : "";
+    invalidProducts[title].push("Collection error: Product");
   }
 
   if (colourCollectionExists === false) {
-    !faultyProducts[title] ? (faultyProducts[title] = []) : "";
-    faultyProducts[title].push("Collection error: Colour");
+    !invalidProducts[title] ? (invalidProducts[title] = []) : "";
+    invalidProducts[title].push("Collection error: Colour");
   }
 };
 
@@ -204,7 +204,7 @@ const ProductQuery = () => {
   // return  (
   //   <div>
   //     <pre>
-  //       {JSON.stringify(faultyProducts, null, 2) }
+  //       {JSON.stringify(invalidProducts, null, 2) }
   //     </pre>
   //   </div>
   // );

@@ -1,6 +1,6 @@
-import MakeProductObject from "./MakeProductObject";
+import ProductObject from "./ProductObject";
 
-const ValidateHandle = (faultyProducts, product, title) => {
+const ValidateHandle = (invalidProducts, product, title) => {
   let productHandle = product.node.handle;
   let productHandleized = product.node.title
     .replaceAll(" - ", " ")
@@ -10,14 +10,14 @@ const ValidateHandle = (faultyProducts, product, title) => {
   const invalidHandle = {};
 
   if (productHandleized !== productHandle) {
-    MakeProductObject(faultyProducts, title);
+    ProductObject(invalidProducts, title);
 
     invalidHandle = {
       expected: productHandleized,
       received: productHandle,
     };
 
-    faultyProducts[title]["invalid handle"] = invalidHandle;
+    invalidProducts[title]["invalid handle"] = invalidHandle;
   }
 };
 
