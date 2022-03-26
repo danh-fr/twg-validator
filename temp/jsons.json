@@ -1,0 +1,56 @@
+{
+  "Amalia Long Sleeve Knit -Dahlia": {
+    "handle mismatch": {
+      "expected": "amalia-long-sleeve-knit--dahlia",
+      "received": "amalia-long-sleeve-knit-dahlia"
+    },
+    "invalid options": {
+      "size": {
+        "expected": "Size",
+        "received": "(size option not present or misspelt)"
+      }
+    }
+  },
+  "Sol Knit Pant Chocolate": {
+    "invalid title": {
+      "expected": "Product Name - Colour Name",
+      "received": "Sol Knit Pant Chocolate"
+    }
+  },
+  "Cana Strapless Knit Top - Bauhaus Mint": {
+    "handle mismatch": {
+      "expected": "cana-strapless-knit-top-bauhaus-mint",
+      "received": "cana-strapless-knit-t"
+    }
+  },
+  "La Cala Mini Dress - Ombre Sky": {
+    "handle mismatch": {
+      "expected": "la-cala-mini-dress-ombre-sky",
+      "received": "la-cala-mini-dress"
+    },
+    "invalid options": {
+      "size": {
+        "expected": "Size",
+        "received": "(size option not present or misspelt)"
+      }
+    }
+  },
+  "Goldie Long Sleeve Mini Dress - Bauhaus Dahlia": {
+    "handle mismatch": {
+      "expected": "goldie-long-sleeve-mini-dress-bauhaus-dahlia",
+      "received": "goldie-long-sleeve-mini-dress"
+    }
+  },
+  "Sol Knit Dress - Azul": {
+    "invalid options": {}
+  },
+  "Ravello Bustier - Lotus": {
+    "invalid options": {}
+  },
+  "Valerie Mini Dress - Fuchsia": {
+    "handle mismatch": {
+      "expected": "valerie-mini-dress-fuchsia",
+      "received": "valerie-mini-dress-fuschia"
+    }
+  }
+}

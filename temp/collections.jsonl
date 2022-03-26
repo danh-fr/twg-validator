@@ -1,0 +1,274 @@
+{ "input": { "title": "Product: Berber Tote", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Berber Tote", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Bedouin Cloud Clutch", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Bedouin Cloud Clutch", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Cavaretta Mini Bag", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Cavaretta Mini Bag", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Faye Mini Shoulder Bag", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Faye Mini Shoulder Bag", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Faye Shoulder Bag", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Faye Shoulder Bag", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Amalia Long Sleeve Knit", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Amalia Long Sleeve Knit", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Sol Knit Pant", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Sol Knit Pant", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Avery Messenger Bag", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Avery Messenger Bag", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Ondara Fringe Bag", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Ondara Fringe Bag", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Bedouin Clutch", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Bedouin Clutch", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Daphne Clutch", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Daphne Clutch", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Benita Shoulder Bag", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Benita Shoulder Bag", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Allora Card Holder", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Allora Card Holder", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Maia Box Bag", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Maia Box Bag", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Blanca Wave Bag", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Blanca Wave Bag", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Sol Knit Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Sol Knit Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Cana Strapless Knit Top", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Cana Strapless Knit Top", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Sol Knit Top", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Sol Knit Top", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Bibi Terry Short", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Bibi Terry Short", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Bibi Terry Long Sleeve Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Bibi Terry Long Sleeve Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Bibi Terry Top", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Bibi Terry Top", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Lolita Cut Out Mini Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Lolita Cut Out Mini Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Orella Cut Out Maxi Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Orella Cut Out Maxi Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Ravello Mini Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Ravello Mini Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: La Joya Cut Out Maxi Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "La Joya Cut Out Maxi Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: El Mar Maxi Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "El Mar Maxi Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: La Cala Mini Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "La Cala Mini Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Goldie Long Sleeve Mini Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Goldie Long Sleeve Mini Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Cana Long Sleeve Knit Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Cana Long Sleeve Knit Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Cana One Shoulder Knit Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Cana One Shoulder Knit Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Ravello Pant", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Ravello Pant", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: La Joya Mini Skirt", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "La Joya Mini Skirt", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: La Cala Pant", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "La Cala Pant", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Ravello Bolero", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Ravello Bolero", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Hermosa Shirt", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Hermosa Shirt", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Ravello Bustier", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Ravello Bustier", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: La Joya Sleeved Top", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "La Joya Sleeved Top", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: La Cala Top", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "La Cala Top", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Caracolito Skirt", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Caracolito Skirt", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Caracolito Bustier", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Caracolito Bustier", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Valerie Tie Neck Halter", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Valerie Tie Neck Halter", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Zoella Pant", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Zoella Pant", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Isle Maxi Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Isle Maxi Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Pacifica One Shoulder Maxi Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Pacifica One Shoulder Maxi Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Levisa Key Hole Mini Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Levisa Key Hole Mini Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Audrey Cut Out Maxi Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Audrey Cut Out Maxi Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Bowie Printed Tee", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Bowie Printed Tee", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Raya Embroidered Tee", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Raya Embroidered Tee", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Paloma Micro Tee", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Paloma Micro Tee", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Del Mar Pant", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Del Mar Pant", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Del Mar Halter Top", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Del Mar Halter Top", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Colour: Cognac", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Cognac", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Lime", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Lime", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Peach", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Peach", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Ivory", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Ivory", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Black Wave", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Black Wave", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Mint", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Mint", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Dahlia", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Dahlia", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Chocolate", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Chocolate", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Fuschia", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Fuschia", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Emerald", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Emerald", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Floss", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Floss", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Azul", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Azul", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Candy", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Candy", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Pina", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Pina", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Noir", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Noir", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Sage", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Sage", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Chartreuse", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Chartreuse", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Bauhaus Mint", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Bauhaus Mint", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Bauhaus Dahlia/Latte", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Bauhaus Dahlia/Latte", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Sky Wave", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Sky Wave", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Watercolour", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Watercolour", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Bauhaus Dahlia", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Bauhaus Dahlia", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Lotus", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Lotus", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Ombre Sky", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Ombre Sky", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Bauhaus Azul", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Bauhaus Azul", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Pina Swirl", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Pina Swirl", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Olive", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Olive", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Tropics", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Tropics", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Floss Check", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Floss Check", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Watermelon", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Watermelon", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Magenta Floral", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Magenta Floral", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Mocha", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Mocha", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Lilac", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Lilac", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Seafoam", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Seafoam", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Product: Valerie Mini Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Valerie Mini Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Montana Mini Skirt", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Montana Mini Skirt", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Levisa Key Hole Top", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Levisa Key Hole Top", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Levisa Key Hole Mini Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Levisa Key Hole Mini Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Pacifica One Shoulder Maxi Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Pacifica One Shoulder Maxi Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Layla Mini Box Bag", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Layla Mini Box Bag", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Sahara Keychain Coin Purse", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Sahara Keychain Coin Purse", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Cabo Terry Halter Top", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Cabo Terry Halter Top", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Cabo Terry Romper", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Cabo Terry Romper", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Cabo Terry Short", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Cabo Terry Short", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Cabo Terry Tote", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Cabo Terry Tote", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Cabo Terry Halter Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Cabo Terry Halter Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Cabo Terry Long Sleeve Shirt", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Cabo Terry Long Sleeve Shirt", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Cabo Terry Mini Skirt", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Cabo Terry Mini Skirt", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Bedouin Clutch", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Bedouin Clutch", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Lola Mini Shoulder Bag", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Lola Mini Shoulder Bag", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Marrakesh Cut Out Maxi Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Marrakesh Cut Out Maxi Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Vera Printed Turband", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Vera Printed Turband", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Valerie Tie Neck Halter", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Valerie Tie Neck Halter", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Valerie Midi Skirt", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Valerie Midi Skirt", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Valerie Halter Midi Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Valerie Halter Midi Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Tan Tan Tassel", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Tan Tan Tassel", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Sahara Linen Twist Neck Top", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Sahara Linen Twist Neck Top", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Sahara Linen Pant", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Sahara Linen Pant", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Safi Linen Cut Out Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Safi Linen Cut Out Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Safi Linen Blouse", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Safi Linen Blouse", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Petite Lune Silk Square", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Petite Lune Silk Square", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Ondara Ultrasuede Fringe Bag", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Ondara Ultrasuede Fringe Bag", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Nahla Open Back Knit Tee", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Nahla Open Back Knit Tee", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Nahla Knit Short", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Nahla Knit Short", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Montana Tie Front Blouse", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Montana Tie Front Blouse", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Montana One Shoulder Mini Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Montana One Shoulder Mini Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Lune Sweatpants", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Lune Sweatpants", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Lune Sweater", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Lune Sweater", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Colour: Peach", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Peach", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Fuchsia", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Fuchsia", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Arte", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Arte", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Watermelon", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Watermelon", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Lime", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Lime", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Marine", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Marine", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Amazon", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Amazon", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Floss", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Floss", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Leopard", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Leopard", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Lotus", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Lotus", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Sage", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Sage", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Sand", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Sand", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Azul", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Azul", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Grape", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Grape", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Candy", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Candy", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Noir", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Noir", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Citrus Wave", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Citrus Wave", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Lilac", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Lilac", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Magenta", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Magenta", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Peach Spot", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Peach Spot", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Ivory Palm", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Ivory Palm", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Berry Palm", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Berry Palm", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Pistachio", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Pistachio", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Multi", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Multi", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Lemon", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Lemon", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Mint", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Mint", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Dahlia", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Dahlia", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Cornflower", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Cornflower", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Cherry", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Cherry", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Bone", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Bone", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Tutti Frutti", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Tutti Frutti", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Ivory", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Ivory", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Product: Valerie Mini Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Valerie Mini Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Montana Mini Skirt", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Montana Mini Skirt", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Levisa Key Hole Top", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Levisa Key Hole Top", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Levisa Key Hole Mini Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Levisa Key Hole Mini Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Pacifica One Shoulder Maxi Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Pacifica One Shoulder Maxi Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Layla Mini Box Bag", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Layla Mini Box Bag", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Sahara Keychain Coin Purse", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Sahara Keychain Coin Purse", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Cabo Terry Halter Top", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Cabo Terry Halter Top", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Cabo Terry Romper", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Cabo Terry Romper", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Cabo Terry Short", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Cabo Terry Short", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Cabo Terry Tote", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Cabo Terry Tote", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Cabo Terry Halter Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Cabo Terry Halter Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Cabo Terry Long Sleeve Shirt", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Cabo Terry Long Sleeve Shirt", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Cabo Terry Mini Skirt", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Cabo Terry Mini Skirt", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Bedouin Clutch", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Bedouin Clutch", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Lola Mini Shoulder Bag", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Lola Mini Shoulder Bag", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Marrakesh Cut Out Maxi Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Marrakesh Cut Out Maxi Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Vera Printed Turband", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Vera Printed Turband", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Valerie Tie Neck Halter", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Valerie Tie Neck Halter", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Valerie Midi Skirt", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Valerie Midi Skirt", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Valerie Halter Midi Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Valerie Halter Midi Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Tan Tan Tassel", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Tan Tan Tassel", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Sahara Linen Twist Neck Top", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Sahara Linen Twist Neck Top", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Sahara Linen Pant", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Sahara Linen Pant", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Safi Linen Cut Out Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Safi Linen Cut Out Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Safi Linen Blouse", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Safi Linen Blouse", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Petite Lune Silk Square", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Petite Lune Silk Square", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Ondara Ultrasuede Fringe Bag", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Ondara Ultrasuede Fringe Bag", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Nahla Open Back Knit Tee", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Nahla Open Back Knit Tee", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Nahla Knit Short", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Nahla Knit Short", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Montana Tie Front Blouse", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Montana Tie Front Blouse", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Montana One Shoulder Mini Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Montana One Shoulder Mini Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Lune Sweatpants", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Lune Sweatpants", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Lune Sweater", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Lune Sweater", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Layla Mini Box Bag", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Layla Mini Box Bag", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: La Boca Bell Sleeve Knit", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "La Boca Bell Sleeve Knit", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Ischia One Shoulder Maxi Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Ischia One Shoulder Maxi Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Ischia Cropped Pant", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Ischia Cropped Pant", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Ischia Cropped Bustier", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Ischia Cropped Bustier", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Franca Raffia Tote", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Franca Raffia Tote", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Florence Cut Out Mini Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Florence Cut Out Mini Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Faye Shoulder Bag", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Faye Shoulder Bag", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Farah Maxi Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Farah Maxi Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Estrella Woven Wallet", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Estrella Woven Wallet", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Estelle Ribbed Knit Pant", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Estelle Ribbed Knit Pant", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Estelle Ribbed Knit Halter", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Estelle Ribbed Knit Halter", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Eden Tie Back Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Eden Tie Back Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Daphne Clutch", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Daphne Clutch", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Comodo Bell Sleeve Knit", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Comodo Bell Sleeve Knit", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Catania Raffia Pom Pom Crossbody", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Catania Raffia Pom Pom Crossbody", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Casetta Raffia Tote", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Casetta Raffia Tote", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Callie Mini Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Callie Mini Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Blanca Raffia Fringe Tote", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Blanca Raffia Fringe Tote", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Blanca Raffia Fringe Mini Bag", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Blanca Raffia Fringe Mini Bag", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Bisous Ombre Knit", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Bisous Ombre Knit", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Bisous Ombre Beanie", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Bisous Ombre Beanie", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Biscay Shoulder Bag", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Biscay Shoulder Bag", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Besito Pom Pom Knit", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Besito Pom Pom Knit", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Berber Tote", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Berber Tote", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Bedouin Clutch", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Bedouin Clutch", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Avery Messenger Bag", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Avery Messenger Bag", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Product: Audrey Cut Out Maxi Dress", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Audrey Cut Out Maxi Dress", "relation": "STARTS_WITH" } } } }
+{ "input": { "title": "Colour: Peach", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Peach", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Fuchsia", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Fuchsia", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Arte", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Arte", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Watermelon", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Watermelon", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Lime", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Lime", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Marine", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Marine", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Amazon", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Amazon", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Floss", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Floss", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Leopard", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Leopard", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Lotus", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Lotus", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Sage", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Sage", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Sand", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Sand", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Azul", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Azul", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Grape", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Grape", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Candy", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Candy", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Noir", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Noir", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Citrus Wave", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Citrus Wave", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Lilac", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Lilac", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Magenta", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Magenta", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Peach Spot", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Peach Spot", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Ivory Palm", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Ivory Palm", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Berry Palm", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Berry Palm", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Pistachio", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Pistachio", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Multi", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Multi", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Lemon", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Lemon", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Mint", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Mint", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Dahlia", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Dahlia", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Cornflower", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Cornflower", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Cherry", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Cherry", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Bone", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Bone", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Tutti Frutti", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Tutti Frutti", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Ivory", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Ivory", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Natural", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Natural", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Ivory", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Ivory", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Peach", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Peach", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Tutti Frutti", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Tutti Frutti", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Candy Spot", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Candy Spot", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Lime Spot", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Lime Spot", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Noir", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Noir", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Lemon", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Lemon", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Cognac", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Cognac", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Light Khaki", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Light Khaki", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Butterscotch", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Butterscotch", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Sage", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Sage", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Bone", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Bone", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Lilac", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Lilac", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Tangerine", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Tangerine", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Mint", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Mint", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Lotus", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Lotus", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Toffee", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Toffee", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Rainbow", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Rainbow", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Amazon", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Amazon", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Sky", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Sky", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Oatmeal", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Oatmeal", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Rose", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Rose", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Midnight", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Midnight", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Elephant", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Elephant", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Terracotta", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Terracotta", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Marine", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Marine", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: Blush", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "Blush", "relation": "ENDS_WITH" } } } }
+{ "input": { "title": "Colour: 70s Floral", "ruleSet": { "appliedDisjunctively": true, "rules": { "column": "TITLE", "condition": "70s Floral", "relation": "ENDS_WITH" } } } }
