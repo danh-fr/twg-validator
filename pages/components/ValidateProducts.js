@@ -1,39 +1,12 @@
-import * as React from "react";
+import React from "react";
 import { gql, useQuery } from "@apollo/client";
 
-import MakeProductObject from "../functions/MakeProductObject";
 import ValidateTitle from "../functions/ValidateTitle";
 import ValidateHandle from "../functions/ValidateHandle";
 import ValidateOptions from "../functions/ValidateOptions";
+import ValidateCollections from "../functions/ValidateCollections";
 
 var faultyProducts = {};
-
-const validateCollections = (product, title, name, colour) => {
-  let collections = product.node.collections.edges;
-  let productCollection = `Product: ${name}`;
-  let colourCollection = `Colour: ${colour}`;
-  let productCollectionExists = false;
-  let colourCollectionExists = false;
-
-  for (let collection of collections) {
-    collection.node.title === productCollection
-      ? (productCollectionExists = true)
-      : "";
-    collection.node.title === colourCollection
-      ? (colourCollectionExists = true)
-      : "";
-  }
-
-  if (productCollectionExists === false) {
-    !faultyProducts[title] ? (faultyProducts[title] = []) : "";
-    faultyProducts[title].push("Collection error: Product");
-  }
-
-  if (colourCollectionExists === false) {
-    !faultyProducts[title] ? (faultyProducts[title] = []) : "";
-    faultyProducts[title].push("Collection error: Colour");
-  }
-};
 
 const PRODUCTS = gql`
   query products {
@@ -70,14 +43,14 @@ const ProductList = () => {
 
   data.products.edges.map((product) => {
     let title = product.node.title;
-    let name = title.split(" - ")[0];
-    let colour = title.split(" - ")[1];
 
     ValidateTitle(faultyProducts, title);
     ValidateHandle(faultyProducts, product, title);
     ValidateOptions(faultyProducts, product, title);
-    // validateCollections(product, title, name, colour)
+    ValidateCollections(faultyProducts, product, title);
   });
+
+  console.log(data);
 
   return (
     <div>
