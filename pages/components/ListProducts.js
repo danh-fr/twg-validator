@@ -3,7 +3,7 @@ import { gql, useQuery } from "@apollo/client";
 
 const PRODUCTS_GQL = gql`
   query ProductsGql($cursor: String) {
-    products(first: 100, after: $cursor) {
+    products(first: 5, after: $cursor) {
       edges {
         cursor
         node {
@@ -20,7 +20,9 @@ const PRODUCTS_GQL = gql`
 `;
 
 const ListProducts = () => {
-  const { data, error, loading, fetchMore } = useQuery(PRODUCTS_GQL);
+  const { data, error, loading, fetchMore } = useQuery(PRODUCTS_GQL, {
+    variables: { cursor: null },
+  });
 
   if (error) return <p>Error: {error.message}</p>;
   if (loading || !data) return <p>Loading..</p>;
@@ -45,7 +47,6 @@ const ListProducts = () => {
                   __typename: fetchMoreResult.products.__typename,
                 },
               };
-              console.log(fetchMoreResult.products.pageInfo.hasNextPage);
               return combinedData;
             },
           });
