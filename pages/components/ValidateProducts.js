@@ -9,6 +9,9 @@ import ValidateCollections from "../functions/ValidateCollections";
 const productsData = {};
 const invalidProducts = {};
 
+const fetchLimit = 50;
+const fetchCount = 25;
+
 const PRODUCTS_GQL = gql`
   query ProductsGql($count: Int, $cursor: String) {
     products(first: $count, after: $cursor) {
@@ -51,11 +54,11 @@ const GetProducts = () => {
   if (error) return <p>Error: {error.message}</p>;
   if (loading || !data) return <p>Loading products..</p>;
 
-  productsData = data;
+  let cursor = data.products.edges[data.products.edges.length - 1].cursor;
+  let items = data.products.edges.length;
+  let hasNextPage = data.products.pageInfo.hasNextPage;
 
-  let items = productsData.products.edges.length;
-
-  if (data.products.pageInfo.hasNextPage || !error) {
+  if (hasNextPage && items <= fetchLimit) {
     console.log("Fetching again, starting timer..");
 
     setTimeout(() => {
@@ -63,41 +66,29 @@ const GetProducts = () => {
 
       fetchMore({
         variables: {
-          count: 25,
-          cursor: data.products.edges[data.products.edges.length - 1].cursor,
+          count: fetchCount,
+          cursor: cursor,
         },
       });
     }, 10000);
+  } else if (items >= fetchLimit) {
+    console.log("Reached fetch limit");
+  } else if (!hasNextPage) {
+    console.log("Fetched all products in store.");
   }
 
-  // setInterval(() => {
-  //   console.log('in interval')
-  //   if (data.products.pageInfo.hasNextPage) {
-  //     console.log('fetching again')
-  //     fetchMore({
-  //       variables: {
-  //         cursor:
-  //           data.products.edges[data.products.edges.length - 1].cursor,
-  //       },
-  //     });
-  //   }
-  // }, 10000)
-
-  // if (!data.products.pageInfo.hasNextPage || error) {
-  //   console.log('stopping fetch')
-  //   clearInterval(fetchAgain)
-  // }
+  productsData = data;
 
   return (
     <div>
       <p>Items: {items}</p>
+      <p>Fetch limit: {fetchLimit}</p>
       <pre>{JSON.stringify(productsData, null, 2)}</pre>
     </div>
   );
 };
 
 const DisplayResponse = () => {
-  // return GetProduct("gid://shopify/Product/7157932589248");
   return GetProducts();
 };
 
