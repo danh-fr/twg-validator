@@ -1,5 +1,5 @@
 import React from "react";
-import { gql, useQuery } from "@apollo/client";
+import { gql, InMemoryCache, useQuery } from "@apollo/client";
 
 import ValidateTitle from "../functions/ValidateTitle";
 import ValidateHandle from "../functions/ValidateHandle";
@@ -17,9 +17,9 @@ const PRODUCT_GQL = gql`
   }
 `;
 
-const PRODUCTS = gql`
-  query products {
-    products(first: 25) {
+const PRODUCTS_GQL = gql`
+  query ProductsGql($numProducts: Int!, $cursor: String) {
+    products(first: $numProducts, after: $cursor) {
       pageInfo {
         hasNextPage
       }
@@ -61,7 +61,11 @@ const GetProduct = (id) => {
 };
 
 const GetAllProducts = () => {
-  const { loading, error, data } = useQuery(PRODUCTS);
+  const { loading, error, data, fetchMore } = useQuery(PRODUCTS_GQL, {
+    variables: {
+      numProducts: 10,
+    },
+  });
 
   if (loading) return <p>Loading products..</p>;
   if (error) console.log("Error: ", error.message);

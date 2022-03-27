@@ -23,7 +23,7 @@ const ValidateOptions = (invalidProducts, product, title) => {
 
     const invalidSize = {
       expected: "Size",
-      received: "(size option not present or misspelt)",
+      received: "(size option not present or misspelled)",
     };
 
     invalidProducts[title]["invalid options"]["size"] = invalidSize;
@@ -34,7 +34,7 @@ const ValidateOptions = (invalidProducts, product, title) => {
 
     const invalidColour = {
       expected: "Colour",
-      received: "(colour option not present or misspelt)",
+      received: "(colour option not present or misspelled)",
     };
 
     invalidProducts[title]["invalid options"]["colour"] = invalidColour;

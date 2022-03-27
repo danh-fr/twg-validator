@@ -7,7 +7,7 @@
     "invalid options": {
       "size": {
         "expected": "Size",
-        "received": "(size option not present or misspelt)"
+        "received": "(size option not present or misspelled)"
       }
     }
   },
@@ -31,7 +31,7 @@
     "invalid options": {
       "size": {
         "expected": "Size",
-        "received": "(size option not present or misspelt)"
+        "received": "(size option not present or misspelled)"
       }
     }
   },

@@ -48,8 +48,6 @@ app.prepare().then(async () => {
         const host = ctx.query.host;
         ACTIVE_SHOPIFY_SHOPS[shop] = scope;
 
-        console.log("Store access token: ", accessToken);
-
         const responses = await Shopify.Webhooks.Registry.register({
           shop,
           accessToken,
