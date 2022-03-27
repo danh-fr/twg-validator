@@ -5,12 +5,13 @@ import ValidateCollections from "../functions/ValidateCollections";
 
 const Validation = (invalidProducts, data) => {
   data.products.edges.map((product) => {
+    let id = product.node.id;
     let title = product.node.title;
 
-    ValidateTitle(invalidProducts, title);
-    ValidateHandle(invalidProducts, product, title);
-    ValidateOptions(invalidProducts, product, title);
-    ValidateCollections(invalidProducts, product, title);
+    ValidateTitle(invalidProducts, id, title);
+    ValidateHandle(invalidProducts, id, product, title);
+    ValidateOptions(invalidProducts, id, product, title);
+    ValidateCollections(invalidProducts, id, product, title);
   });
 };
 

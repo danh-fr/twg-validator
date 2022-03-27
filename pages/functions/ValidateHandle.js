@@ -1,6 +1,6 @@
 import ProductObject from "./ProductObject";
 
-const ValidateHandle = (invalidProducts, product, title) => {
+const ValidateHandle = (invalidProducts, id, product, title) => {
   let productHandle = product.node.handle;
   let productHandleized = product.node.title
     .replaceAll(" - ", " ")
@@ -10,14 +10,14 @@ const ValidateHandle = (invalidProducts, product, title) => {
   const invalidHandle = {};
 
   if (productHandleized !== productHandle) {
-    ProductObject(invalidProducts, title);
+    ProductObject(invalidProducts, id, title);
 
     invalidHandle = {
       expected: productHandleized,
       received: productHandle,
     };
 
-    invalidProducts[title]["invalid handle"] = invalidHandle;
+    invalidProducts[id]["invalid handle"] = invalidHandle;
   }
 };
 

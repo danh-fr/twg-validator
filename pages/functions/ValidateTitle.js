@@ -1,17 +1,17 @@
 import ProductObject from "./ProductObject";
 
-const ValidateTitle = (invalidProducts, title) => {
+const ValidateTitle = (invalidProducts, id, title) => {
   const invalidTitle = {};
 
   if (!title.includes(" - ")) {
-    ProductObject(invalidProducts, title);
+    ProductObject(invalidProducts, id, title);
 
     invalidTitle = {
       expected: "Product Name - Colour Name",
       received: title,
     };
 
-    invalidProducts[title]["invalid title"] = invalidTitle;
+    invalidProducts[id]["invalid title"] = invalidTitle;
   }
 };
 

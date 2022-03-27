@@ -7,8 +7,8 @@ let stringColour = "";
 
 const validateTitle = (title) => {
   if (!title.includes(" - ")) {
-    !invalidProducts[title] ? (invalidProducts[title] = []) : "";
-    invalidProducts[title].push("Title error");
+    !invalidProducts[id] ? (invalidProducts[id] = []) : "";
+    invalidProducts[id].push("Title error");
   }
 };
 
@@ -20,8 +20,8 @@ const validateHandle = (product, title) => {
     .toLowerCase();
 
   if (productHandleized !== productHandle) {
-    !invalidProducts[title] ? (invalidProducts[title] = []) : "";
-    invalidProducts[title].push("Handle mismatch");
+    !invalidProducts[id] ? (invalidProducts[id] = []) : "";
+    invalidProducts[id].push("Handle mismatch");
   }
 };
 
@@ -36,13 +36,13 @@ const ValidateOptions = (product, title) => {
   }
 
   if (sizeExists === false) {
-    !invalidProducts[title] ? (invalidProducts[title] = []) : "";
-    invalidProducts[title].push("Option error: Size");
+    !invalidProducts[id] ? (invalidProducts[id] = []) : "";
+    invalidProducts[id].push("Option error: Size");
   }
 
   if (colourExists === false) {
-    !invalidProducts[title] ? (invalidProducts[title] = []) : "";
-    invalidProducts[title].push("Option error: Colour");
+    !invalidProducts[id] ? (invalidProducts[id] = []) : "";
+    invalidProducts[id].push("Option error: Colour");
   }
 };
 
@@ -63,13 +63,13 @@ const validateCollections = (product, title, name, colour) => {
   }
 
   if (productCollectionExists === false) {
-    !invalidProducts[title] ? (invalidProducts[title] = []) : "";
-    invalidProducts[title].push("Collection error: Product");
+    !invalidProducts[id] ? (invalidProducts[id] = []) : "";
+    invalidProducts[id].push("Collection error: Product");
   }
 
   if (colourCollectionExists === false) {
-    !invalidProducts[title] ? (invalidProducts[title] = []) : "";
-    invalidProducts[title].push("Collection error: Colour");
+    !invalidProducts[id] ? (invalidProducts[id] = []) : "";
+    invalidProducts[id].push("Collection error: Colour");
   }
 };
 

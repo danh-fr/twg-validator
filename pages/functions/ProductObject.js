@@ -1,15 +1,14 @@
-const ProductObject = (invalidProducts, parent, child, grandchild) => {
-  !invalidProducts[parent] ? (invalidProducts[parent] = {}) : "";
+const ProductObject = (invalidProducts, id, parent, child, grandchild) => {
+  !invalidProducts[id] ? (invalidProducts[id] = {}) : "";
+  invalidProducts[id]["product"] = parent;
 
   if (child) {
-    !invalidProducts[parent][child]
-      ? (invalidProducts[parent][child] = {})
-      : "";
+    !invalidProducts[id][child] ? (invalidProducts[id][child] = {}) : "";
   }
 
   if (grandchild) {
-    !invalidProducts[parent][child][grandchild]
-      ? (invalidProducts[parent][child][grandchild] = {})
+    !invalidProducts[id][child][grandchild]
+      ? (invalidProducts[id][child][grandchild] = {})
       : "";
   }
 };

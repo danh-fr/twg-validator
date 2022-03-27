@@ -1,6 +1,6 @@
 import ProductObject from "./ProductObject";
 
-const ValidateCollections = (invalidProducts, product, title) => {
+const ValidateCollections = (invalidProducts, id, product, title) => {
   let collections = product.node.collections.edges;
   let productCollection = `Product: ${title.split(" - ")[0]}`;
   let colourCollection = `Colour: ${title.split(" - ")[1]}`;
@@ -17,27 +17,27 @@ const ValidateCollections = (invalidProducts, product, title) => {
   }
 
   if (productCollectionExists === false) {
-    ProductObject(invalidProducts, title, "invalid collection", "product");
+    ProductObject(invalidProducts, id, title, "invalid collection", "product");
 
     const invalidProductCollection = {
       expected: productCollection,
       received: "(product collection not present)",
     };
 
-    invalidProducts[title]["invalid collection"][
+    invalidProducts[id]["invalid collection"][
       "product"
     ] = invalidProductCollection;
   }
 
   if (colourCollectionExists === false) {
-    ProductObject(invalidProducts, title, "invalid collection", "colour");
+    ProductObject(invalidProducts, id, title, "invalid collection", "colour");
 
     const invalidColourCollection = {
       expected: colourCollection,
       received: "(colour collection not present)",
     };
 
-    invalidProducts[title]["invalid collection"][
+    invalidProducts[id]["invalid collection"][
       "colour"
     ] = invalidColourCollection;
   }

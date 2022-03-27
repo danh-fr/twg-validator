@@ -3,9 +3,9 @@ import { gql, useQuery } from "@apollo/client";
 import Validation from "../functions/Validation";
 
 var invalidProducts = {};
-const numProducts = 100;
+const numProducts = 20;
 const fetchCount = 20;
-const fetchInterval = 5000;
+const fetchInterval = 200;
 const validationComplete = false;
 
 const PRODUCTS_GQL = gql`
@@ -17,6 +17,7 @@ const PRODUCTS_GQL = gql`
       edges {
         cursor
         node {
+          id
           title
           handle
           options(first: 2) {
