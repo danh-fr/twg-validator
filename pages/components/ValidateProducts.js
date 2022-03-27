@@ -6,20 +6,12 @@ import ValidateHandle from "../functions/ValidateHandle";
 import ValidateOptions from "../functions/ValidateOptions";
 import ValidateCollections from "../functions/ValidateCollections";
 
+const productsData = {};
 const invalidProducts = {};
 
-const PRODUCT_GQL = gql`
-  query ProductGql($id: ID!) {
-    product(id: $id) {
-      title
-      totalInventory
-    }
-  }
-`;
-
 const PRODUCTS_GQL = gql`
-  query ProductsGql($numProducts: Int!, $cursor: String) {
-    products(first: $numProducts, after: $cursor) {
+  query ProductsGql($count: Int, $cursor: String) {
+    products(first: $count, after: $cursor) {
       pageInfo {
         hasNextPage
       }
@@ -31,7 +23,7 @@ const PRODUCTS_GQL = gql`
           options(first: 2) {
             name
           }
-          collections(first: 35) {
+          collections(first: 15) {
             edges {
               node {
                 title
@@ -44,53 +36,81 @@ const PRODUCTS_GQL = gql`
   }
 `;
 
-const GetProduct = (id) => {
-  const { loading, error, data } = useQuery(PRODUCT_GQL, {
-    variables: { id },
-  });
-
-  if (loading) return <p>Loading products..</p>;
-  if (error) console.log("Error: ", error.message);
-
-  return (
-    <>
-      <p>{data.product.title}</p>
-      <p>{data.product.totalInventory}</p>
-    </>
+const GetProducts = () => {
+  const { loading, error, data, extensions, fetchMore } = useQuery(
+    PRODUCTS_GQL,
+    {
+      variables: {
+        count: 1,
+        cursor: null,
+      },
+    }
   );
-};
 
-const GetAllProducts = () => {
-  const { loading, error, data, fetchMore } = useQuery(PRODUCTS_GQL, {
-    variables: {
-      numProducts: 10,
-    },
-  });
-
-  if (loading) return <p>Loading products..</p>;
   if (error) console.log("Error: ", error.message);
+  if (error) return <p>Error: {error.message}</p>;
+  if (loading || !data) return <p>Loading products..</p>;
 
-  data.products.edges.map((product) => {
-    let title = product.node.title;
+  productsData = data;
 
-    ValidateTitle(invalidProducts, title);
-    ValidateHandle(invalidProducts, product, title);
-    ValidateOptions(invalidProducts, product, title);
-    ValidateCollections(invalidProducts, product, title);
-  });
+  let items = productsData.products.edges.length;
+
+  if (data.products.pageInfo.hasNextPage || !error) {
+    console.log("Fetching again, starting timer..");
+
+    setTimeout(() => {
+      console.log("Fetching..");
+
+      fetchMore({
+        variables: {
+          count: 25,
+          cursor: data.products.edges[data.products.edges.length - 1].cursor,
+        },
+      });
+    }, 10000);
+  }
+
+  // setInterval(() => {
+  //   console.log('in interval')
+  //   if (data.products.pageInfo.hasNextPage) {
+  //     console.log('fetching again')
+  //     fetchMore({
+  //       variables: {
+  //         cursor:
+  //           data.products.edges[data.products.edges.length - 1].cursor,
+  //       },
+  //     });
+  //   }
+  // }, 10000)
+
+  // if (!data.products.pageInfo.hasNextPage || error) {
+  //   console.log('stopping fetch')
+  //   clearInterval(fetchAgain)
+  // }
 
   return (
     <div>
-      <pre>{JSON.stringify(invalidProducts, null, 2)}</pre>
+      <p>Items: {items}</p>
+      <pre>{JSON.stringify(productsData, null, 2)}</pre>
     </div>
   );
 };
 
 const DisplayResponse = () => {
   // return GetProduct("gid://shopify/Product/7157932589248");
-  return GetAllProducts();
+  return GetProducts();
 };
 
 export function ValidateProducts() {
   return <DisplayResponse />;
 }
+
+// data.products.edges.map((product) => {
+//   let title = product.node.title;
+
+//   ValidateTitle(invalidProducts, title);
+//   ValidateHandle(invalidProducts, product, title);
+//   ValidateOptions(invalidProducts, product, title);
+//   ValidateCollections(invalidProducts, product, title);
+
+// });

@@ -11,7 +11,7 @@ export default function Index() {
           🎉
         </span>
       </Heading>
-      <ListProducts />
+      <ValidateProducts />
     </Page>
   );
 }
