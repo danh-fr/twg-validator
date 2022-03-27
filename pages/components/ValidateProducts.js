@@ -1,5 +1,5 @@
 import React from "react";
-import { gql, InMemoryCache, useQuery } from "@apollo/client";
+import { gql, useQuery } from "@apollo/client";
 
 import ValidateTitle from "../functions/ValidateTitle";
 import ValidateHandle from "../functions/ValidateHandle";
