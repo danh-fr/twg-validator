@@ -1,12 +1,16 @@
 import React from "react";
 import { gql, useQuery } from "@apollo/client";
-import Validation from "../functions/Validation";
 
-var invalidProducts = {};
-const numProducts = 100;
-const fetchCount = 20;
-const fetchInterval = 5000;
-const validationComplete = false;
+import ValidateTitle from "../functions/ValidateTitle";
+import ValidateHandle from "../functions/ValidateHandle";
+import ValidateOptions from "../functions/ValidateOptions";
+import ValidateCollections from "../functions/ValidateCollections";
+
+const productsData = {};
+const invalidProducts = {};
+
+const fetchLimit = 50;
+const fetchCount = 25;
 
 const PRODUCTS_GQL = gql`
   query ProductsGql($count: Int, $cursor: String) {
@@ -47,13 +51,14 @@ const GetProducts = () => {
   );
 
   if (error) console.log("Error: ", error.message);
-  if (loading || !data) return <p>Loading products...</p>;
+  if (error) return <p>Error: {error.message}</p>;
+  if (loading || !data) return <p>Loading products..</p>;
 
   let cursor = data.products.edges[data.products.edges.length - 1].cursor;
   let items = data.products.edges.length;
   let hasNextPage = data.products.pageInfo.hasNextPage;
 
-  if (hasNextPage && items <= numProducts) {
+  if (hasNextPage && items <= fetchLimit) {
     console.log("Fetching again, starting timer..");
 
     setTimeout(() => {
@@ -65,20 +70,38 @@ const GetProducts = () => {
           cursor: cursor,
         },
       });
-    }, fetchInterval);
-  } else if (items >= numProducts || !hasNextPage) {
-    console.log("Fetch complete. Running validation..");
-    Validation(invalidProducts, data);
-    validationComplete = true;
+    }, 10000);
+  } else if (items >= fetchLimit) {
+    console.log("Reached fetch limit");
+  } else if (!hasNextPage) {
+    console.log("Fetched all products in store.");
   }
 
-  if (validationComplete) {
-    return <pre>{JSON.stringify(invalidProducts, null, 2)}</pre>;
-  } else {
-    return <p>Loading products...</p>;
-  }
+  productsData = data;
+
+  return (
+    <div>
+      <p>Items: {items}</p>
+      <p>Fetch limit: {fetchLimit}</p>
+      <pre>{JSON.stringify(productsData, null, 2)}</pre>
+    </div>
+  );
+};
+
+const DisplayResponse = () => {
+  return GetProducts();
 };
 
 export function ValidateProducts() {
-  return <GetProducts />;
+  return <DisplayResponse />;
 }
+
+// data.products.edges.map((product) => {
+//   let title = product.node.title;
+
+//   ValidateTitle(invalidProducts, title);
+//   ValidateHandle(invalidProducts, product, title);
+//   ValidateOptions(invalidProducts, product, title);
+//   ValidateCollections(invalidProducts, product, title);
+
+// });
