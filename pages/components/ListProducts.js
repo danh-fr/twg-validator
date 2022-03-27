@@ -1,5 +1,5 @@
 import React from "react";
-import { gql, useQuery } from "@apollo/client";
+import { gql, useQuery, InMemoryCache } from "@apollo/client";
 
 const PRODUCTS_GQL = gql`
   query ProductsGql($cursor: String) {
@@ -27,29 +27,20 @@ const ListProducts = () => {
   if (error) return <p>Error: {error.message}</p>;
   if (loading || !data) return <p>Loading..</p>;
 
+  const pageInfo = data.products.pageInfo;
+
   return (
     <>
       <button
         onClick={() => {
-          fetchMore({
-            variables: {
-              cursor:
-                data.products.edges[data.products.edges.length - 1].cursor,
-            },
-            updateQuery: (previousResult, { fetchMoreResult }) => {
-              let combinedData = {
-                products: {
-                  pageInfo: { ...fetchMoreResult.products.pageInfo },
-                  edges: [
-                    ...previousResult.products.edges,
-                    ...fetchMoreResult.products.edges,
-                  ],
-                  __typename: fetchMoreResult.products.__typename,
-                },
-              };
-              return combinedData;
-            },
-          });
+          if (pageInfo.hasNextPage) {
+            fetchMore({
+              variables: {
+                cursor:
+                  data.products.edges[data.products.edges.length - 1].cursor,
+              },
+            });
+          }
         }}
       >
         Load more
@@ -64,3 +55,12 @@ const ListProducts = () => {
 };
 
 export default ListProducts;
+
+// onClick={() => {
+//   fetchMore({
+//     variables: {
+//       cursor:
+//         data.products.edges[data.products.edges.length - 1].cursor
+//     },
+//   });
+// }}

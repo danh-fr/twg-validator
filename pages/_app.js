@@ -11,6 +11,7 @@ import {
   ApolloProvider,
   createHttpLink,
 } from "@apollo/client";
+import { relayStylePagination } from "@apollo/client/utilities";
 
 function userLoggedInFetch(app) {
   const fetchFunction = authenticatedFetch(app);
@@ -38,7 +39,15 @@ function MyProvider(props) {
   const app = useAppBridge();
 
   const client = new ApolloClient({
-    cache: new InMemoryCache(),
+    cache: new InMemoryCache({
+      typePolicies: {
+        Query: {
+          fields: {
+            products: relayStylePagination(),
+          },
+        },
+      },
+    }),
     link: createHttpLink({
       credentials: "include",
       headers: {
