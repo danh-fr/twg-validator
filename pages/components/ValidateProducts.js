@@ -8,6 +8,15 @@ import ValidateCollections from "../functions/ValidateCollections";
 
 const invalidProducts = {};
 
+const PRODUCT_GQL = gql`
+  query ProductGql($id: ID!) {
+    product(id: $id) {
+      title
+      totalInventory
+    }
+  }
+`;
+
 const PRODUCTS = gql`
   query products {
     products(first: 25) {
@@ -35,7 +44,23 @@ const PRODUCTS = gql`
   }
 `;
 
-const ProductList = () => {
+const GetProduct = (id) => {
+  const { loading, error, data } = useQuery(PRODUCT_GQL, {
+    variables: { id },
+  });
+
+  if (loading) return <p>Loading products..</p>;
+  if (error) console.log("Error: ", error.message);
+
+  return (
+    <>
+      <p>{data.product.title}</p>
+      <p>{data.product.totalInventory}</p>
+    </>
+  );
+};
+
+const GetAllProducts = () => {
   const { loading, error, data } = useQuery(PRODUCTS);
 
   if (loading) return <p>Loading products..</p>;
@@ -50,8 +75,6 @@ const ProductList = () => {
     ValidateCollections(invalidProducts, product, title);
   });
 
-  console.log(data);
-
   return (
     <div>
       <pre>{JSON.stringify(invalidProducts, null, 2)}</pre>
@@ -59,6 +82,11 @@ const ProductList = () => {
   );
 };
 
+const DisplayResponse = () => {
+  // return GetProduct("gid://shopify/Product/7157932589248");
+  return GetAllProducts();
+};
+
 export function ValidateProducts() {
-  return <ProductList />;
+  return <DisplayResponse />;
 }
