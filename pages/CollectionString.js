@@ -190,8 +190,6 @@ const ProductQuery = () => {
       createCollectionsColour(colour);
       loopedColours.push(colour);
     }
-
-    console.log(product.cursor);
   });
 
   return (

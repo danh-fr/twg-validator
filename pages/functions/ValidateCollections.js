@@ -17,29 +17,19 @@ const ValidateCollections = (invalidProducts, id, product, title) => {
   }
 
   if (productCollectionExists === false) {
-    ProductObject(invalidProducts, id, title, "invalid collection", "product");
+    const error = "invalid collection - product";
+    const expected = productCollection;
+    const received = "(product collection not present)";
 
-    const invalidProductCollection = {
-      expected: productCollection,
-      received: "(product collection not present)",
-    };
-
-    invalidProducts[id]["invalid collection"][
-      "product"
-    ] = invalidProductCollection;
+    ProductObject(invalidProducts, id, title, error, expected, received);
   }
 
   if (colourCollectionExists === false) {
-    ProductObject(invalidProducts, id, title, "invalid collection", "colour");
+    const error = "invalid collection - colour";
+    const expected = colourCollection;
+    const received = "(colour collection not present)";
 
-    const invalidColourCollection = {
-      expected: colourCollection,
-      received: "(colour collection not present)",
-    };
-
-    invalidProducts[id]["invalid collection"][
-      "colour"
-    ] = invalidColourCollection;
+    ProductObject(invalidProducts, id, title, error, expected, received);
   }
 };
 

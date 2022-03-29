@@ -1,16 +1,18 @@
-const ProductObject = (invalidProducts, id, parent, child, grandchild) => {
+const ProductObject = (
+  invalidProducts,
+  id,
+  title,
+  error,
+  expected,
+  received
+) => {
   !invalidProducts[id] ? (invalidProducts[id] = {}) : "";
-  invalidProducts[id]["product"] = parent;
+  !invalidProducts[id][title] ? (invalidProducts[id]["product"] = title) : "";
+  !invalidProducts[id]["errors"] ? (invalidProducts[id]["errors"] = {}) : "";
 
-  if (child) {
-    !invalidProducts[id][child] ? (invalidProducts[id][child] = {}) : "";
-  }
-
-  if (grandchild) {
-    !invalidProducts[id][child][grandchild]
-      ? (invalidProducts[id][child][grandchild] = {})
-      : "";
-  }
+  invalidProducts[id]["errors"][error] = {};
+  invalidProducts[id]["errors"][error]["Expected"] = expected;
+  invalidProducts[id]["errors"][error]["Received"] = received;
 };
 
 export default ProductObject;

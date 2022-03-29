@@ -7,17 +7,13 @@ const ValidateHandle = (invalidProducts, id, product, title) => {
     .replaceAll(" ", "-")
     .replaceAll("/", "-")
     .toLowerCase();
-  const invalidHandle = {};
 
   if (productHandleized !== productHandle) {
-    ProductObject(invalidProducts, id, title);
+    const error = "invalid handle";
+    const expected = productHandleized;
+    const received = productHandle;
 
-    invalidHandle = {
-      expected: productHandleized,
-      received: productHandle,
-    };
-
-    invalidProducts[id]["invalid handle"] = invalidHandle;
+    ProductObject(invalidProducts, id, title, error, expected, received);
   }
 };
 

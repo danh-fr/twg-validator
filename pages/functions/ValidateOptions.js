@@ -19,25 +19,19 @@ const ValidateOptions = (invalidProducts, id, product, title) => {
   }
 
   if (sizeExists === false && oneSize === false) {
-    ProductObject(invalidProducts, id, title, "invalid options", "size");
+    const error = "invalid option - size";
+    const expected = "Size";
+    const received = "(size option not present or misspelled)";
 
-    const invalidSize = {
-      expected: "Size",
-      received: "(size option not present or misspelled)",
-    };
-
-    invalidProducts[id]["invalid options"]["size"] = invalidSize;
+    ProductObject(invalidProducts, id, title, error, expected, received);
   }
 
   if (colourExists === false) {
-    ProductObject(invalidProducts, id, title, "invalid options", "colour");
+    const error = "invalid option - colour";
+    const expected = "Colour";
+    const received = "(colour option not present or misspelled)";
 
-    const invalidColour = {
-      expected: "Colour",
-      received: "(colour option not present or misspelled)",
-    };
-
-    invalidProducts[id]["invalid options"]["colour"] = invalidColour;
+    ProductObject(invalidProducts, id, title, error, expected, received);
   }
 };
 
