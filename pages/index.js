@@ -1,4 +1,4 @@
-import { Heading, Page } from "@shopify/polaris";
+import { Page, Heading } from "@shopify/polaris";
 import { ValidateProducts } from "./components/ValidateProducts";
 
 export default function Index() {

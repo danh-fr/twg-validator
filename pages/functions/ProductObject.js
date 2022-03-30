@@ -6,13 +6,17 @@ const ProductObject = (
   expected,
   received
 ) => {
-  !invalidProducts[id] ? (invalidProducts[id] = {}) : "";
-  !invalidProducts[id][title] ? (invalidProducts[id]["product"] = title) : "";
-  !invalidProducts[id]["errors"] ? (invalidProducts[id]["errors"] = {}) : "";
+  !invalidProducts[title] ? (invalidProducts[title] = {}) : "";
 
-  invalidProducts[id]["errors"][error] = {};
-  invalidProducts[id]["errors"][error]["Expected"] = expected;
-  invalidProducts[id]["errors"][error]["Received"] = received;
+  !invalidProducts[title]["id"] ? (invalidProducts[title]["id"] = id) : "";
+
+  !invalidProducts[title]["errors"]
+    ? (invalidProducts[title]["errors"] = {})
+    : "";
+
+  invalidProducts[title]["errors"][error] = {};
+  invalidProducts[title]["errors"][error]["Expected"] = expected;
+  invalidProducts[title]["errors"][error]["Received"] = received;
 };
 
 export default ProductObject;

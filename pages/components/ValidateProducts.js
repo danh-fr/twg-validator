@@ -1,4 +1,5 @@
 import React from "react";
+import { Card, Subheading, TextContainer } from "@shopify/polaris";
 import { gql, useQuery } from "@apollo/client";
 import Validation from "../functions/Validation";
 
@@ -74,7 +75,45 @@ const GetProducts = () => {
   }
 
   if (validationComplete) {
-    return <pre>{JSON.stringify(invalidProducts, null, 2)}</pre>;
+    const cards = [];
+
+    for (const invalidEntry of Object.entries(invalidProducts)) {
+      const title = invalidEntry[0];
+      const id = invalidEntry[1][1];
+      const errors = invalidEntry[1].errors;
+
+      for (const errorEntry of Object.entries(errors)) {
+        const error = errorEntry[0];
+
+        for (const item of Object.entries(errorEntry[1])) {
+          const expected = item[0];
+          const received = item[1];
+
+          cards.push(
+            <Card key={id} title={title} sectioned>
+              <Subheading>{error}</Subheading>
+              <TextContainer spacing="loose">
+                <p>
+                  Expected: {expected}
+                  <br />
+                  Received: {received}
+                </p>
+                <p></p>
+              </TextContainer>
+            </Card>
+          );
+        }
+      }
+    }
+
+    return (
+      <>
+        {cards}
+        <pre>{JSON.stringify(invalidProducts, null, 2)}</pre>
+      </>
+    );
+
+    // return <pre>{JSON.stringify(invalidProducts, null, 2)}</pre>;
   } else {
     return <p>Loading products...</p>;
   }
@@ -82,4 +121,14 @@ const GetProducts = () => {
 
 export function ValidateProducts() {
   return <GetProducts />;
+}
+
+{
+  /*  */
+}
+
+{
+  /* <Card title="Online store dashboard" sectioned>
+  <p>View a summary of your online store’s performance.</p>
+</Card>  */
 }
